@@ -1,0 +1,391 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 100%;
+}
+body {
+    background-color: #e6e2d7;
+    color: #000;
+    font-family: 'Noto Serif JP',serif;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+li {
+    list-style: none;
+}
+
+/*---------------header-------------------*/
+header {
+    background-image: url(../img/mainvisual-pc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+#logo {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 40px;
+}
+
+header nav {
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+header nav li {
+padding-left: 30px;
+}
+#onlinestore {
+    position: absolute;
+    background-color: rgba(255,255,255,0.2);
+    padding: 5px;
+    bottom: 50px;
+    left: 50px;
+}
+#onlinestore p {
+    border: solid 1px #fff;
+    padding: 20px;
+}
+
+/*---------------ALL------------------*/
+main {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.title {
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+.title-ja {
+    font-size: 2rem;
+    padding-bottom: 10px;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+
+/*---------------news-------------------*/
+#news {
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    margin: 170px 0 190px auto;
+}
+#news .title-ja {
+    font-size: 2.3rem;
+}
+#news dl {
+    margin-right: 100px;
+    margin-top: 80px;
+}
+#news dt {
+    border-right: solid 1px black;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#news dd {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#news dd:last-of-type {
+    border-left: solid 1px black;
+}
+
+/*---------------Create_New_Values-------------------*/
+#Create_New_Values {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 130px;
+}
+#Create_New_Values h2 {
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    padding-right: 10px;  
+}
+
+.img-content {
+    position: relative;
+}
+#Create-img {
+    width: 68%;
+    margin-left: auto;
+    margin-top: 110px;
+    margin-right: 10px;
+}
+#text-stack-c {
+    position: absolute;
+    background-color: rgba(249, 233, 6, 0.6);
+    color: #fff;
+    padding: 40px 120px;
+    left: 29%;
+    top: 79%;
+}
+
+/*---------------Science_Technology-------------------*/
+#Science_Technology {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 130px;
+    margin-left: 10px;
+}
+#Science_Technology h2 {
+    writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    padding-right: 10px;  
+}
+#Science-img {
+    width: 68%;
+    margin-top: 110px;
+    margin-right: 10px;
+}
+#text-stack-s {
+    position: absolute;
+    background-color: rgba(149, 42, 38, 0.6);
+    color: #fff;
+    padding: 40px 110px;
+    left: 34%;
+    top: 80%;
+}
+
+/*---------------footer-------------------*/
+footer {
+    color: #fff;
+    background-color: #000;
+}
+#footer-inner {
+    height: 460px;
+    width: 100%;
+    position: relative;
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+}
+#footer-logo {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    width: 40px;
+}
+#footer-add {
+    position: absolute;
+    top: 80px;
+    right: 180px;
+    font-size: 0.9rem;
+    line-height: 2;
+}
+#footer-nav {
+    position: absolute;
+    top: 80px;
+    right: 300px;
+}
+#footer-nav li {
+    margin-left: 28px;
+}
+#footer-onlinestore {
+    position: absolute;
+    margin: 5px;
+    top: 80px;
+    left: 30px;
+    font-size: 0.9rem;
+}
+#copyright {
+    text-align: center;
+    color: #fff;
+    font-size: 0.6rem;
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+
+/*
+footer {
+    height: 500px;
+    color: #fff;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+#footer-inner {
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    
+}
+#footer-logo {
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    width: 40px;
+}
+#footer-add {
+    position: absolute;
+    top: 80px;
+    right: 150px;
+}
+#footer-nav {
+    position: absolute;
+    top: 80px;
+    right: 250px;
+}
+#footer-nav li {
+    padding-left: 30px;
+}
+#footer-onlinestore {
+    position: absolute;
+    padding: 5px;
+    bottom: 50px;
+    left: 50px;
+}
+#copyright {
+    text-align: center;
+    color: #fff;
+    font-size: 0.6rem;
+    padding-bottom: 20px;
+}
+*/
+
+/*---------------レスポンシブ対応-------------------*/
+
+
+@media screen and (max-width:768px) {
+    header {
+        background-image: url(../img/mainvisual-sp.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        width: 100%;
+    }
+    #logo {
+        top: 20px;
+        right: 20px;
+    }
+    header nav {
+        top: 20px;
+        right: 130px;
+    }
+    #onlinestore {
+        bottom: 15px;
+        left: 20px;
+    }
+
+/*---------------news-------------------*/
+
+    #news {
+        margin: 60px 15px 70px auto;
+    }
+    #news dl {
+        margin-right: 20px;
+        margin-top: 35px;
+    }
+    #news dt {
+        padding-right: 10px;
+    }
+    #news dd {
+        padding-left: 10px;
+    }
+    #dd-solid {
+        border-left: solid 1px black;
+    }
+    .r-erase {
+        display: none;
+    }
+
+/*---------------Create-------------------*/
+
+    #Create_New_Values {
+        margin-bottom: 100px;
+        
+    }
+    .title-ja {
+        font-size: 1.5rem;
+        padding-right: 15px;
+    }
+    #Create-img {
+        width: 95%;
+        margin-left: 15px;
+        margin-top: 80px;
+        /*margin-right: 5px;*/
+    }
+    #Create-img img {
+        width: 100%;
+    }
+    #text-stack-c {
+        padding: 25px 35px;
+        left: 0;
+        top: 73%;
+    }
+
+/*---------------Science-------------------*/
+
+    #Science_Technology {
+        margin-bottom: 100px;
+        margin-left: 10px;
+    }
+    #Science_Technology h2 {
+        padding-right: 5px;  
+    }
+    #Science_Technology .title-ja {
+        padding-right: 0;
+    }
+    #Science-img {
+        width: 95%;
+        margin-top: 80px;
+    }
+    #Science-img img {
+        width: 100%;
+    }
+    #text-stack-s {
+        padding: 25px 35px;
+        right: 0;
+        top: 73%;
+        text-align: center;
+    }
+    
+/*---------------footer-------------------*/    
+    
+    #footer-inner {
+        height: 400px;
+    }
+    #footer-logo {
+        top: 40px;
+        right: 20px;
+    }
+    #footer-add {
+        top: 40px;
+        right: 90px;
+        font-size: 0.85rem;
+    }
+    #footer-nav {
+        top: 40px;
+        right: 170px;
+        font-size: 0.85rem;
+    }
+    #footer-nav li {
+        margin-left: 10px;
+    }
+    #footer-onlinestore {
+        margin: 5px;
+        top: 40px;
+        left: 15px;
+        font-size: 0.9rem;
+    }
+    #copyright {
+        padding-right: 0;
+    }
+
+}
